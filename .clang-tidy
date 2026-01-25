@@ -1,0 +1,12 @@
+---
+Checks: 'clang-diagnostic-*,
+         clang-analyzer-*,
+         cppcoreguidelines-*,
+         modernize-*,
+         bugprone-*,
+         misc-*,
+         readability-*,
+         -modernize-use-trailing-return-type,
+         -readability-convert-member-functions-to-static'
+
+WarningsAsErrors: true
